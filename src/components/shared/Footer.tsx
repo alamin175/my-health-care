@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 
 const Footer = () => {
 	return (
-		<Box bgcolor="navy" py={4}>
+		<Box bgcolor="#000225" py={4}>
 			<Stack
 				direction="row"
 				gap={4}
@@ -37,6 +37,7 @@ const Footer = () => {
 				justifyContent="center"
 				alignItems="center"
 				pt={2}
+				color="white"
 			>
 				<Link
 					target="blank"
